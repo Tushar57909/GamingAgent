@@ -1,0 +1,28 @@
+# Environment variables and credentials
+.env
+*.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Playwright & test reports
+test-results/
+playwright-report/
